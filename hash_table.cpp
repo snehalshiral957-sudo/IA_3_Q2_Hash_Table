@@ -48,14 +48,28 @@ int main()
         cout << " at index " << index;
 
         // Linear probing
-        while (hashTable[index] != -1)
-        {
-            cout << "\nCollision! Checking next index.";
+        int probes = 0;
 
-            index = (index + 1) % SIZE;
+while (hashTable[index] != -1)
+{
+    cout << "\nCollision! Checking next index.";
 
-            cout << "\nChecking index " << index;
-        }
+    index = (index + 1) % SIZE;
+    probes++;
+
+    if (probes == SIZE)
+    {
+        cout << "\nHash table is full!";
+        break;
+    }
+
+    cout << "\nChecking index " << index;
+}
+
+if (probes == SIZE)
+{
+    continue;
+}
 
         hashTable[index] = key;
 
