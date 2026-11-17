@@ -1,4 +1,5 @@
 # IA_3_Q2_Hash_Table
+<<<<<<< HEAD
 
 ## Project Overview
 A C++ hash table project featuring collision handling, collision counting, searching, full-table checking, and a menu-driven interface.
@@ -72,3 +73,6 @@ Test a key with an empty calculated slot, a colliding key, a key that exists, a 
 
 ## Author
 Add your name, roll number, class, and academic year here.
+=======
+Hash Table project for DS IA
+>>>>>>> origin/main
