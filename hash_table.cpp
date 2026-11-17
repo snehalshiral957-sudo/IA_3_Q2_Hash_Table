@@ -132,6 +132,7 @@ do
 
             cout << endl;
         }
+        cout << "\nTotal Collisions: " << totalCollisions << endl;
     }
     else if (choice == 2)
     {
