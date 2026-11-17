@@ -1,4 +1,5 @@
-* 741b346 (HEAD -> master) Add student details and project documentation
+* eda3e19 (HEAD -> master) Add final project evidence and documentation
+* 741b346 Add student details and project documentation
 * f48b385 Improve output and complete final testing
 * ca92d16 Add menu driven functionality
 * e301088 Add search functionality

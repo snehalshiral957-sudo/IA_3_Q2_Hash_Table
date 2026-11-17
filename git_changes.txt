@@ -1,3 +1,18 @@
+commit eda3e1987c6b64a26c14a17bec2ae2ad5df775ee
+Author: Snehal Shiral <snehalshiral957@gmail.com>
+Date:   Wed Nov 18 01:35:57 2026 +0530
+
+    Add final project evidence and documentation
+
+ detailed_git_history.txt       |  55 +++++++++++++++++++++++++++++++++++
+ evidence/Dataset_insertion.png | Bin 0 -> 127989 bytes
+ evidence/hash_table.png        | Bin 0 -> 117323 bytes
+ git_changes.txt                |  64 +++++++++++++++++++++++++++++++++++++++++
+ git_graph.txt                  |   7 +++++
+ git_history.txt                |   7 +++++
+ hash_table.exe                 | Bin 0 -> 44400 bytes
+ 7 files changed, 133 insertions(+)
+
 commit 741b3468e8fb629af6fae943c3d414e5d083e2ac
 Author: Snehal Shiral <snehalshiral957@gmail.com>
 Date:   Wed Nov 18 01:29:42 2026 +0530
