@@ -105,5 +105,38 @@ if (probes == SIZE)
     }
 
     cout << "\nTotal Collisions: " << totalCollisions << endl;
+    int searchKey;
+
+cout << "\nEnter flavour number to search: ";
+cin >> searchKey;
+
+int index = searchKey % SIZE;
+int start = index;
+bool found = false;
+
+while (hashTable[index] != -1)
+{
+    if (hashTable[index] == searchKey)
+    {
+        found = true;
+        break;
+    }
+
+    index = (index + 1) % SIZE;
+
+    if (index == start)
+    {
+        break;
+    }
+}
+
+if (found)
+{
+    cout << "Flavour found at index " << index << endl;
+}
+else
+{
+    cout << "Flavour not found!" << endl;
+}
     return 0;
 }
