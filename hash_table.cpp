@@ -106,6 +106,73 @@ if (probes == SIZE)
 
     cout << "\nTotal Collisions: " << totalCollisions << endl;
     int searchKey;
+    int choice;
+
+do
+{
+    cout << "\n\n===== HASH TABLE MENU =====";
+    cout << "\n1. Display Hash Table";
+    cout << "\n2. Search Flavour";
+    cout << "\n3. Exit";
+    cout << "\nEnter your choice: ";
+    cin >> choice;
+
+    if (choice == 1)
+    {
+        cout << "\nIndex\tValue\n";
+
+        for (int i = 0; i < SIZE; i++)
+        {
+            cout << i << "\t";
+
+            if (hashTable[i] == -1)
+                cout << "Empty";
+            else
+                cout << "Flavour " << hashTable[i];
+
+            cout << endl;
+        }
+    }
+    else if (choice == 2)
+    {
+        int searchKey;
+
+        cout << "\nEnter flavour number to search: ";
+        cin >> searchKey;
+
+        int index = searchKey % SIZE;
+        int start = index;
+        bool found = false;
+
+        while (hashTable[index] != -1)
+        {
+            if (hashTable[index] == searchKey)
+            {
+                found = true;
+                break;
+            }
+
+            index = (index + 1) % SIZE;
+
+            if (index == start)
+                break;
+        }
+
+        if (found)
+            cout << "Flavour found at index " << index;
+        else
+            cout << "Flavour not found!";
+    }
+    else if (choice == 3)
+    {
+        cout << "\nExiting program...";
+    }
+    else
+    {
+        cout << "\nInvalid choice!";
+    }
+
+} while (choice != 3);
 
 cout << "\nEnter flavour number to search: ";
 cin >> searchKey;
