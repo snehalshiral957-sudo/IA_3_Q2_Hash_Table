@@ -36,13 +36,16 @@ int main()
     cout << "    COLD DRINK FLAVOURS" << endl;
     cout << "================================" << endl;
 
-    // Insert values into hash table
+    int totalCollisions = 0;
+
+// Insert values into hash table
     for (int i = 0; i < N; i++)
     {
         int key = data[i];
 
         // Division method
         int index = key % SIZE;
+        int collisionCount = 0;
 
         cout << "\nInserting " << key;
         cout << " at index " << index;
@@ -52,6 +55,7 @@ int main()
 
 while (hashTable[index] != -1)
 {
+    totalCollisions++;
     cout << "\nCollision! Checking next index.";
 
     index = (index + 1) % SIZE;
@@ -100,5 +104,6 @@ if (probes == SIZE)
         cout << endl;
     }
 
+    cout << "\nTotal Collisions: " << totalCollisions << endl;
     return 0;
 }
