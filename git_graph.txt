@@ -1,0 +1,7 @@
+* 741b346 (HEAD -> master) Add student details and project documentation
+* f48b385 Improve output and complete final testing
+* ca92d16 Add menu driven functionality
+* e301088 Add search functionality
+* 1246286 Add collision counting
+* 5834b24 Add hash table full condition checking
+* 49a6a00 Add personalized hash table project

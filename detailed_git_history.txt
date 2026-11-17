@@ -1,0 +1,55 @@
+commit 741b3468e8fb629af6fae943c3d414e5d083e2ac
+Author:     Snehal Shiral <snehalshiral957@gmail.com>
+AuthorDate: Wed Nov 18 01:29:42 2026 +0530
+Commit:     Snehal Shiral <snehalshiral957@gmail.com>
+CommitDate: Wed Nov 18 01:29:42 2026 +0530
+
+    Add student details and project documentation
+
+commit f48b3851b64c244a7ca08a98828363cf75a1cf37
+Author:     Snehal Shiral <snehalshiral957@gmail.com>
+AuthorDate: Tue Nov 17 22:40:13 2026 +0530
+Commit:     Snehal Shiral <snehalshiral957@gmail.com>
+CommitDate: Tue Nov 17 22:40:13 2026 +0530
+
+    Improve output and complete final testing
+
+commit ca92d1682507932e3a3402155f2b9bed530ab7f7
+Author:     Snehal Shiral <snehalshiral957@gmail.com>
+AuthorDate: Tue Nov 17 22:37:28 2026 +0530
+Commit:     Snehal Shiral <snehalshiral957@gmail.com>
+CommitDate: Tue Nov 17 22:37:28 2026 +0530
+
+    Add menu driven functionality
+
+commit e3010888e65294cd81508f862dc84dac6bc63850
+Author:     Snehal Shiral <snehalshiral957@gmail.com>
+AuthorDate: Tue Nov 17 20:25:05 2026 +0530
+Commit:     Snehal Shiral <snehalshiral957@gmail.com>
+CommitDate: Tue Nov 17 20:25:05 2026 +0530
+
+    Add search functionality
+
+commit 1246286a3c9ae1e9a21ecb701228e794aca2d437
+Author:     Snehal Shiral <snehalshiral957@gmail.com>
+AuthorDate: Tue Nov 17 20:22:50 2026 +0530
+Commit:     Snehal Shiral <snehalshiral957@gmail.com>
+CommitDate: Tue Nov 17 20:22:50 2026 +0530
+
+    Add collision counting
+
+commit 5834b24b78dc92c55355da4e6c014ebf3acfa070
+Author:     Snehal Shiral <snehalshiral957@gmail.com>
+AuthorDate: Tue Nov 17 20:17:35 2026 +0530
+Commit:     Snehal Shiral <snehalshiral957@gmail.com>
+CommitDate: Tue Nov 17 20:17:35 2026 +0530
+
+    Add hash table full condition checking
+
+commit 49a6a0009a4c565efc47e1cc26c0e243d6fdbb74
+Author:     Snehal Shiral <snehalshiral957@gmail.com>
+AuthorDate: Tue Nov 17 20:13:30 2026 +0530
+Commit:     Snehal Shiral <snehalshiral957@gmail.com>
+CommitDate: Tue Nov 17 20:13:30 2026 +0530
+
+    Add personalized hash table project
